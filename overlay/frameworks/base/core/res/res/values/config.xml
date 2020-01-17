@@ -211,17 +211,13 @@
         <item>"/system/framework/boot-core-libart.vdex"</item>
     </string-array>
 
-    <!-- Whether the device supports Smart Pixels --> 
-    <bool name="config_supportSmartPixels">true</bool>
-
-    <!--Systeminfo for quick settings header -->
-    <string name="config_sysCPUTemp">/sys/class/<path_to_option></string>
-    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
-    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
-    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
-    <integer name="config_sysCPUTempMultiplier"><device_specific_mulitplyer></integer>
-    <integer name="config_sysBatteryTempMultiplier"><device_specific_mulitplyer></integer>
-
    <!-- If Smart charging supported by kernel and device sepolicy -->
    <bool name="config_smartChargingAvailable">true</bool>
+
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
+
+    <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
+    <bool name="config_inflateSignalStrength">true</bool>
+
 </resources>
