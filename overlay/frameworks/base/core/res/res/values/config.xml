@@ -106,6 +106,17 @@
         M 0,0 H -36 V 100 H 36 V 0 H 0 Z
     </string>
 
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+
+    <!-- Vibrator pattern for feedback about a long screen/key press -->
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>28</item>
+        <item>10</item>
+    </integer-array>
+
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">100px</dimen>
     <dimen name="status_bar_height_landscape">24dp</dimen>
