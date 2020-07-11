@@ -232,4 +232,8 @@
    <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
 
+    <!-- Boolean indicating if restoring network selection should be skipped -->
+    <!-- The restoring is handled by modem if it is true-->
+    <bool name="skip_restoring_network_selection">true</bool>
+
 </resources>
