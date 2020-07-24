@@ -260,4 +260,6 @@
         <item>ethernet,9,9,9,-1,true</item>
     </string-array>
 
+    <!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 </resources>
