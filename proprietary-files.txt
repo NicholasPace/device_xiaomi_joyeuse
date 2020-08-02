@@ -1,4 +1,4 @@
-# curtana package version: QKQ1.191215.002 V11.0.10.0.QJWMIXM, unless stated otherwise
+# joyeuse package version: QKQ1.191215.002 V11.0.5.0.QJZMIXM, unless stated otherwise
 
 # Audio ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
@@ -188,33 +188,33 @@ vendor/lib64/camera/com.qti.sensor.excalibur_ov8856.so
 vendor/lib64/camera/com.qti.sensor.excalibur_s5k5e9.so
 vendor/lib64/camera/com.qti.sensor.excalibur_s5kgw1.so
 vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov2180.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov8856.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k5e9.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_gc02m1.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_gc8034.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov2180.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov8856.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_s5k5e9.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin
-vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov2180.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov8856.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_s5k5e9.bin
-vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin
 vendor/lib64/camera/com.qti.tuned.sunny_gc8034.bin
-vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin
 vendor/lib64/camera/com.qti.tuned.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.sunny_ov2180.bin
 vendor/lib64/camera/com.qti.tuned.sunny_s5k5e9.bin
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
