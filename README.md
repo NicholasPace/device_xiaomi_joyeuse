@@ -1,33 +1,35 @@
-The Xiaomi Redmi Note 7 (codenamed _"lavender"_) is a mid-range smartphone from Xiaomi announced in January 2019.
+The Redmi Note 9 Pro (codenamed _"joyeuse"_) is a mid-range smartphone from Xiaomi announced in May 2020.
 
 ## Device specifications
 
-| Device                  | Xiaomi Redmi Note 7                                         |
+| Device                  | Redmi Note 9 Pro                                            |
 | ----------------------- | :---------------------------------------------------------- |
-| SoC                     | Qualcomm SDM660 Snapdragon 660                              |
-| CPU                     | 8x Qualcomm® Kryo™ 260 CPU up to 1.8GHz                     |
-| GPU                     | Adreno 512                                                  |
-| Memory                  | 4GB / 6GB RAM (LPDDR4X)                                     |
-| Shipped Android version | 9                                                           |
+| SoC                     | Qualcomm SM7125 Snapdragon 720G                             |
+| CPU                     | Qualcomm® Kryo™ 465, 2x Gold @ 2.3GHz & 6x Silver @ 1.8GHz  |
+| GPU                     | Adreno 618                                                  |
+| Memory                  | 6GB RAM (LPDDR4X)                                           |
+| Shipped Android version | 10                                                          |
 | Storage                 | 64/128GB eMMC 5.1 flash storage                             |
 | MicroSD                 | Up to 256 GB                                                |
-| Battery                 | Non-removable Li-Po 4000 mAh                                |
+| Battery                 | Non-removable Li-Po 5020 mAh                                |
 | Dimensions              | 159.21 x 75.21 x 8.1 mm                                     |
-| Display                 | 2340 x 1080 (19:5:9), 6.3 inch                              |
-| Rear camera 1           | 48 MP, f/1.8, (wide), 1/2", 0.8µm, PDAF (Indian/Global)     |
-| Rear camera 2           | 2 MP, f/2.4, depth sensor or 5 MP, f/2.2, depth sensor      |
-| Front camera            | 13 MP, f/2.0, 1.12µm                                        |
+| Display                 | 2400 x 1080 (20:9), 6.67 inch                               |
+| Rear camera 1           | 64 MP, f/1.89, standard, 1/1.72", 1.12µm, PDAF              |
+| Rear camera 2           | 8 MP, f/2.2, wideangle, 1/4", 1.12µm                        |
+| Rear camera 3           | 5 MP, f/2.4, macro, 1/5", 1.24µm                            |
+| Rear camera 4           | 2 MP, f/2.4, portrait, 1.75µm                               |
+| Front camera            | 16 MP, f/2.48, macro, 1/4", 1.00µm                          |
 
 
 ## Device picture
 
-![Xiaomi Redmi Note 7](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note7/gallery1-2.jpg)
+![Redmi Note 9 Pro](https://hd2.tudocdn.net/901415)
 
 ## Copyright
 
 ```
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

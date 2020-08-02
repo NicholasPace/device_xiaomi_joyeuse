@@ -25,10 +25,10 @@
 # Inherit from sm6250-common
 -include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/curtana
+DEVICE_PATH := device/xiaomi/joyeuse
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := curtana
+TARGET_OTA_ASSERT_DEVICE := joyeuse
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -38,10 +38,10 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := curtana_defconfig
+TARGET_KERNEL_CONFIG := joyeuse_defconfig
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-07-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/curtana/BoardConfigVendor.mk
+-include vendor/xiaomi/joyeuse/BoardConfigVendor.mk

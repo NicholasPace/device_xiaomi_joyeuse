@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=curtana
+export DEVICE=joyeuse
 export VENDOR=xiaomi
 export DEVICE_BRINGUP_YEAR=2020
 export DEVICE_COMMON=sm6250-common

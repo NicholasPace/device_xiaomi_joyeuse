@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_curtana.mk
+    $(LOCAL_DIR)/lineage_joyeuse.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_curtana-user \
-    lineage_curtana-userdebug \
-    lineage_curtana-eng
+    lineage_joyeuse-user \
+    lineage_joyeuse-userdebug \
+    lineage_joyeuse-eng
