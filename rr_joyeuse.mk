@@ -41,3 +41,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="joyeuse-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/joyeuse_global/joyeuse:10/QKQ1.191215.002/V11.0.5.0.QJZMIXM:user/release-keys
+
+# Face Unlock
+export TARGET_FACE_UNLOCK_SUPPORT := true
+
+# RR Build Type
+export RR_BUILDTYPE := Official
