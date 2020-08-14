@@ -135,15 +135,6 @@
         <item>2</item> <!-- COLOR_MODE_SATURATED -->
     </integer-array>
 
-    <!-- Paths to the libraries that contain device specific key handlers -->
-    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-    <item>/system/priv-app/LineageParts/LineageParts.apk</item>
-    </string-array>
-
-    <!-- Names of the key handler classes -->
-    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-    <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
-
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
 
@@ -259,16 +250,10 @@
         <item>mobile_emergency,15,0,5,-1,true</item>
         <item>ethernet,9,9,9,-1,true</item>
     </string-array>
-
-    <!-- Enable doze alwaysOn Display -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>    
-    
-    <!-- If true, the display will be shifted around in ambient mode. -->
-    <bool name="config_enableBurnInProtection">true</bool>
 
     <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
@@ -300,11 +285,7 @@
     -->
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 
-    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">17</integer>
-
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
+
 </resources>
