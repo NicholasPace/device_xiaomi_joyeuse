@@ -92,5 +92,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     SecureElement
 
+# Recorder
+PRODUCT_PACKAGES += \
+    KimciRecorder
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/joyeuse/joyeuse-vendor.mk)
