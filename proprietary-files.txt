@@ -321,7 +321,6 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 # Thermal
 vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
 
 # Touchscreen firmware
