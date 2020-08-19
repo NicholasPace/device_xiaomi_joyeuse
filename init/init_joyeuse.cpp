@@ -85,7 +85,7 @@ void vendor_load_properties() {
             set_ro_product_prop(source, "device", "joyeuse");
             set_ro_product_prop(source, "model", "Redmi Note 9 Pro");
         }
-        property_override("ro.build.description", "phoenix-user 10 QKQ1.190825.002 V11.0.9.0.QGHCNXM release-keys");
+        property_override("ro.build.description", "joyeuse-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys");
     } else if (region == "GLOBAL") {
         for (const auto &source : ro_props_default_source_order) {
             set_ro_build_prop(source, "fingerprint",
