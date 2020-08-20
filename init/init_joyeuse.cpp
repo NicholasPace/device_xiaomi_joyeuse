@@ -77,23 +77,33 @@ void vendor_load_properties() {
     std::string region;
     region = GetProperty("ro.boot.hwc", "");
 
-    if (region == "CN") {
-        for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint",
-                               "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-            set_ro_product_prop(source, "brand", "Redmi");
-            set_ro_product_prop(source, "device", "joyeuse");
-            set_ro_product_prop(source, "model", "Redmi Note 9 Pro");
-        }
-        property_override("ro.build.description", "joyeuse-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys");
-    } else if (region == "GLOBAL") {
-        for (const auto &source : ro_props_default_source_order) {
-            set_ro_build_prop(source, "fingerprint",
-                              "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-            set_ro_product_prop(source, "brand", "Redmi");
-            set_ro_product_prop(source, "device", "Joyeuse");
-            set_ro_product_prop(source, "model", "Redmi Note 9 Pro");
-        }
-        property_override("ro.build.description", "joyeuse-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys");
+    if (region == "GLOBAL") {
+        model = "Redmi Note 9 Pro";
+        device = "joyeuse";
+        fingerprint = "Xiaomi/joyeuse/joyeuse:10/QKQ1.191215.002 V11.0.5.0.QJZMIXM:user/release-keys";
+        description = "joyeuse-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys";
+        mod_device = "joyeuse_global";
+    } else if (region == "CN") {
+        model = "Redmi Note 9 Pro";
+        device = "joyeuse";
+        fingerprint = "Xiaomi/joyeuse/joyeuse:10/QKQ1.191215.002 V11.0.5.0.QJZMIXM:user/release-keys";
+        description = "joyeuse-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys";
+    } else if (region == "INDIA") {
+        model = "Redmi Note 9S";
+        device = "curtana";
+        fingerprint = "Xiaomi/curtana/curtana:10/QKQ1.191215.002 V11.0.5.0.QJZMIXM:user/release-keys";
+        description = "curtana-user 10 QKQ1.191215.002 V11.0.5.0.QJZMIXM release-keys";
+        mod_device = "curtana_in_global";
     }
-}
+
+    // SafetyNet workaround
+    property_override("ro.boot.verifiedbootstate", "green");
+    fingerprint = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
+
+    set_ro_build_prop("fingerprint", fingerprint);
+    set_ro_product_prop("device", device);
+    set_ro_product_prop("model", model);
+    property_override("ro.build.description", description.c_str());
+    if (mod_device != "") {
+        property_override("ro.product.mod_device", mod_device.c_str());
+    }
