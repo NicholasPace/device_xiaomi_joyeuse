@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_joyeuse.mk
+    $(LOCAL_DIR)/carbon_joyeuse.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_joyeuse-user \
-    rr_joyeuse-userdebug \
-    rr_joyeuse-eng
+    carbon_joyeuse-user \
+    carbon_joyeuse-userdebug \
+    carbon_joyeuse-eng
